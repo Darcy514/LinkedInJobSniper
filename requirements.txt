@@ -1,0 +1,9 @@
+NUMPY
+python-jobspy
+openai
+pandas
+python-dotenv
+markdown2
+langchain
+langchain_openai
+pydantic
