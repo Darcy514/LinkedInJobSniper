@@ -71,7 +71,7 @@ Return a score by the following criteria and also give a concise, one-sentence r
 
 [Criteria]
 1. Skill Match (50%): How well do the required skills and technologies in the job description align with those listed on the resume? (Programming Languages, Frameworks, Tools, etc,)
-2. Experience Relevance (20%): Does the candidate's past work experience relate to the job responsibilities? Candidate's years of experience can be 1-2 years different from the job requirement, which wont affect the score.
+2. Experience Relevance (Mandatory): The least working years experience in job description should at most 3 years. If the experience requirement is higher than 3 years, give a very low score.
 3. If the job description emphasizes AI related skills, give extra points.
 4. International public listed companies are preferred, give extra points.
 5. Python is better than Java for our candidate, give extra points if Python is required or mentioned.
