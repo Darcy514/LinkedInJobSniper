@@ -31,7 +31,7 @@ load_dotenv()
 
 # Configuration
 SEARCH_TERM = "Software Engineer (Python, Java)"
-LOCATIONS = ["Tokyo, Japan", "Shanghai, China", "Shenzhen, China", "Singapore"]
+LOCATIONS = ["Tokyo, Japan", "Shanghai, China", "Hongkong, China"]
 RESULT_LIMIT = 15
 HOURS_OLD = 24
 PROXY_URL = os.getenv("PROXY_URL", None)
@@ -93,7 +93,6 @@ prompt_template = ChatPromptTemplate.from_messages([
     """)
 ])
 
-print(system_template)
 
 # Chain
 evaluation_chain = prompt_template | structured_llm
