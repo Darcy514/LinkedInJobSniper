@@ -119,7 +119,7 @@ RESULTS_WANTED = 20  # Number of jobs to scrape per run
 
 ## 🗺️ Roadmap
 * [x] Initial Release: LinkedIn Job Sniper with Gmail integration.
-* [ ] Add support for users to enter their job hunting preferences. AI will also consider these preferences when scoring jobs.
+* [x] Add support for users to enter their job hunting preferences. AI will also consider these preferences when scoring jobs.
 * [ ] Add support for allowing users to upload their resume files directly.
 * [ ] Integrate with more job platforms (Indeed, Glassdoor, etc.).
 * [ ] Add support to more email providers (Outlook, Yahoo, etc.).

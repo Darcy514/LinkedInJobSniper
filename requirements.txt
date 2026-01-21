@@ -12,3 +12,5 @@ langchain>=0.1.0
 langchain-core>=0.1.10
 langchain-community>=0.0.10
 langchain-openai>=0.0.5
+requests
+beautifulsoup4

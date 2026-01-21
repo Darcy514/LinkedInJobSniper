@@ -3,9 +3,9 @@ name: Daily Career Scout
 # Triggers
 on:
   schedule:
-    # Schedule: Runs at 02:00 UTC daily
-    # (Equals 10:00 AM Singapore/Beijing Time due to UTC+8)
-    - cron: '0 2 * * *'
+    # Schedule: Runs at 00:00 UTC daily
+    # (Equals 08:00 AM Singapore/Beijing Time due to UTC+8)
+    - cron: '0 0 * * *'
   # Allows manual triggering via the 'Run workflow' button (for testing)
   workflow_dispatch:
 
@@ -13,7 +13,7 @@ jobs:
   run-agent:
     runs-on: ubuntu-latest  # Runs on the latest Ubuntu environment
 
-    environment: JobSniperEnvVar
+    environment: JobSniperEnvVar # Specify the environment for the job. The environment must exist in the environment secrets setting on GitHub.
 
     steps:
       # 1. Checkout code from repository (including the resumes folder)

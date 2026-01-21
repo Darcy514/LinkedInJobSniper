@@ -52,7 +52,7 @@ class JobEvaluation(BaseModel):
 
 # AI model
 llm = ChatOpenAI(
-    model_name="gemini-3-flash-preview",
+    model_name="gemini-3-pro-preview",
     temperature=0,
     api_key=API_KEY,
     base_url=BASE_URL,
@@ -152,7 +152,7 @@ def fetch_missing_description(url: str, proxies: dict = None) -> str:
     if the jobspy cannot fetch description, try to fetch from job url directly.
     -- For LinkedIn jobs only for now.
     """
-    print(f"   ⛑️  Attempting manual fetch for: {url[:40]}...")
+    print(f"   ⛑️  Attempting manual fetch for: {url}...")
 
     # Set up headers
     ua = UserAgent()
