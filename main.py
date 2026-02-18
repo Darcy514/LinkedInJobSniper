@@ -37,7 +37,7 @@ load_dotenv()
 
 # Configuration
 SEARCH_TERM = "Software Engineer (Python, Java)"
-LOCATIONS = ["Tokyo, Japan", "Hongkong, China", "Singapore"]
+LOCATIONS = ["Tokyo, Japan", "Hongkong, China"]
 RESULT_LIMIT = 15
 HOURS_OLD = 24
 PROXY_URL = os.getenv("PROXY_URL", None)
