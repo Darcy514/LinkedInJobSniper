@@ -58,11 +58,12 @@ class JobEvaluation(BaseModel):
 
 
 # AI model
+# Using OpenAI's ChatOpenAI model.
+# Ensure OPENAI_API_KEY environment variable is set and points to your OpenAI API key.
 llm = ChatOpenAI(
-     model_name="deepseek-chat",
-    temperature=0,
+     model_name="gpt-4o",
+    temperature=0.0,
     api_key=API_KEY,
-    base_url=BASE_URL,
 )
 
 
