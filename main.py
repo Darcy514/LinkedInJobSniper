@@ -36,7 +36,7 @@ from pypdf import PdfReader
 load_dotenv()
 
 # Configuration
-SEARCH_TERM = "Content Manager"  
+SEARCH_TERM = "Content Manager, Branding Manager, Senior Content Manager, Content Director, Content Producer, Senior Producer, Creative Content Producer"  
 LOCATIONS = ["Singapore"]
 RESULT_LIMIT = 30
 HOURS_OLD = 24
