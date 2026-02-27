@@ -37,7 +37,7 @@ load_dotenv()
 
 # Configuration
 SEARCH_TERM = "Content Manager, Branding Manager, Senior Content Manager, Content Director, Content Producer, Senior Producer, Creative Content Producer"  
-LOCATIONS = ["Singapore"]
+LOCATIONS = ["Singapore, China"]
 RESULT_LIMIT = 30
 HOURS_OLD = 24
 PROXY_URL = os.getenv("PROXY_URL", None)
